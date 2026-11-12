@@ -22,7 +22,7 @@ interface C extends B{
 class D implements A,C{
 
     public void run(){
-        System.err.println("Running...");
+        System.err.println("running...");
     }
 
     public void walk(){
@@ -55,5 +55,11 @@ public class MultipleInterface{
 
         C obj1 = new D();
         obj1.sleep();
+
+
+        D obj2 = new D();
+
+        C obj3 = new D();
+        obj3.wake();
     }
 }

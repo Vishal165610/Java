@@ -7,7 +7,8 @@ abstract class Car{
 class WagnoR extends Car{
     
     public void drive(){
-        System.out.println("The Car is driving....");
+        
+        System.out.println("WagnoR is driving");    
     }
 }
 
