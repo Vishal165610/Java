@@ -564,4 +564,3 @@ public class Main {
 
 ---
 
-**Next Topic:** LinkedList
